@@ -1,0 +1,34 @@
+.formControl label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.formControl input,select {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    outline: none;
+}
+
+.formControl button {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(40, 196, 87);
+    border: 1px solid rgb(40, 196, 87);
+    border-radius: 4px;
+    color: #fff;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.formControl button:hover{
+    background-color: #fff;
+    color: rgb(40, 196, 87);
+}
+
