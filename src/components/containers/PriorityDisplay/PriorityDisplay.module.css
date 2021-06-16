@@ -1,0 +1,26 @@
+.inlineBlockdata{
+    display: inline-block;
+    color: #fff;
+  }
+  .priority {
+    height: 15px;
+    width: 100px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .low {
+    background-color: salmon;
+    border: 1px solid salmon;
+  }
+  
+  .moderate {
+    background-color: rgb(52, 134, 201);
+    border: 1px solid rgb(52, 134, 201);
+  }
+  
+  .high {
+    background-color: rgb(40, 196, 87);
+    border: 1px solid rgb(40, 196, 87);
+  }

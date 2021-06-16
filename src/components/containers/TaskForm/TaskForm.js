@@ -19,7 +19,7 @@ const TaskForm = props => {
     const onSubmitHandler = event => {
         event.preventDefault();
         const task = {
-            id:Math.random() / 100,
+            id:(Math.random() * 1000).toFixed(2),
             task: addTask,
             priority: addPriority
         }
