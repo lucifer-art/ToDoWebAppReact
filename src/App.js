@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Fragment>
-      <Header />
+      <Header taskCount={taskList.length} />
       <TaskForm taskList={taskListHandler} />
       {taskList.length > 0 && <PriorityDisplay />}
       {taskList.length > 0 && <TaskList taskData={taskList} onRemoveHandler={removeTaskHandler} />}
